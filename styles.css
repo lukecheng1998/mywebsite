@@ -2,27 +2,76 @@
     text-align: center;
 }
 #title {
-    height: 100%;
-    background-color: black;
+    height: 40%;
+    background-color: white;
+    color: black
 
 }
 html, body{
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
+    padding: 100px;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    -webkit-font-smoothing: subpixel-antialiased;
 }
 .img-center{
     margin-left: auto;
     margin-right: auto;
 }
 p{
-    color: white;
+    text-decoration: none !important;
 }
-a{
-    color: white;
-    margin: auto;
-    width:50%;
+a, u {
+    text-decoration: none !important;
 }
+/*Custom Github button*/
+.github-button {
+
+    display: inline-block;
+    background: #000000;
+    color: #fff !important;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+    -webkit-transform: translateZ(0px);
+}  
+  
+    .github-button:hover {
+
+        color: #fff;
+        box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+        -webkit-transform: translate(0px, -10px);    
+        -webkit-font-smoothing: subpixel-antialiased;
+    }
+
+/*Custom LinkedIn Button*/
+.linkedin-button {
+
+    display: inline-block;
+    background: #0077B5;
+    color: #fff !important;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+    -webkit-transform: translateZ(0px);
+}  
+  
+    .linkedin-button:hover {
+
+        color: #fff;
+        box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+        -webkit-transform: translate(0px, -10px);   
+        -webkit-font-smoothing: subpixel-antialiased;
+    }
+
+
 .About {
     height: 100%;
     background-color: gold;

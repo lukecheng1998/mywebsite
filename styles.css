@@ -1,11 +1,37 @@
 .text-center{
     text-align: center;
 }
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: center;
+    background-color: white;
+    color: black;
+    text-align: top;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: gray;
+    color: white;
+}
 #title {
     height: 40%;
     background-color: white;
     color: black
 
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 20%;
+    padding: 5px;
+    width: 150px;
 }
 html, body{
     padding: 100px;
@@ -40,13 +66,13 @@ a, u {
     -webkit-transform: translateZ(0px);
 }  
   
-    .github-button:hover {
+.github-button:hover {
 
-        color: #fff;
-        box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
-        -webkit-transform: translate(0px, -10px);    
-        -webkit-font-smoothing: subpixel-antialiased;
-    }
+    color: #fff;
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+    -webkit-transform: translate(0px, -10px);    
+    -webkit-font-smoothing: subpixel-antialiased;
+}
 
 /*Custom LinkedIn Button*/
 .linkedin-button {
@@ -63,17 +89,11 @@ a, u {
     -webkit-transform: translateZ(0px);
 }  
   
-    .linkedin-button:hover {
+.linkedin-button:hover {
 
-        color: #fff;
-        box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
-        -webkit-transform: translate(0px, -10px);   
-        -webkit-font-smoothing: subpixel-antialiased;
-    }
+    color: #fff;
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+    -webkit-transform: translate(0px, -10px);   
+    -webkit-font-smoothing: subpixel-antialiased;
+}
 
-
-.About {
-    height: 100%;
-    background-color: gold;
-    text-align: center; 
- }

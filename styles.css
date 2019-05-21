@@ -96,4 +96,22 @@ a, u {
     -webkit-transform: translate(0px, -10px);   
     -webkit-font-smoothing: subpixel-antialiased;
 }
-
+/*Custom Email Button*/
+.email-button {
+    display: inline-block;
+    background: #00004d;
+    color: #fff !important;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+    -webkit-transform: translateZ(0px);
+}
+.email-button:hover {
+    olor: #fff;
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+    -webkit-transform: translate(0px, -10px);   
+    -webkit-font-smoothing: subpixel-antialiased;
+}

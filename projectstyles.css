@@ -28,10 +28,6 @@ img {
     border-radius: 8px;
     width: 50%;
     height: auto;
-    transition: .5s ease;
-}
-img:hover{
-    opacity: 0.5;
 }
 html, body{
     padding: 100px;

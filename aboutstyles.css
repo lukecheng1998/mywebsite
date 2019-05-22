@@ -33,6 +33,9 @@ img {
     padding: 5px;
     width: 150px;
 }
+img:hover{
+    opacity: 0.5;
+}
 html, body{
     padding: 100px;
     box-sizing: border-box;

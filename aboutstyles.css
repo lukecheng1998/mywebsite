@@ -54,6 +54,9 @@ p{
 a, u {
     text-decoration: none !important;
 }
+ul {
+    text-align: left
+}
 /*Table*/
 table, th, td {
     border: 1px, solid black;
